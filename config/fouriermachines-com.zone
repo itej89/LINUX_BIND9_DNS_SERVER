@@ -1,0 +1,19 @@
+$TTL 2d
+
+$ORIGIN fouriermachines.com.
+
+
+@               IN      SOA     ns.fouriermachines.com. info.fouriermachines.com. (
+                                2023141000       ; serial   
+                                12h              ; refresh
+                                15m              ; retry
+                                3w               ; expire
+                                2h               ; minimul ttl
+                                )
+
+                IN      ns      ns.fouriermachines.com. 
+
+ns              IN      A       10.104.59.217
+
+;   -- add dns records below
+speech          IN      A       10.104.59.217
