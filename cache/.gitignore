@@ -1,0 +1,4 @@
+# Empty cache directory for bind
+*
+# This directory containes only this file
+!.gitignore
